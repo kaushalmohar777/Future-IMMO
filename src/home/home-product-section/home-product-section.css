@@ -35,6 +35,13 @@
     transition: 1s;
     width: 100%;
 }
+
+.productgrid img {
+    height: 475px;
+    object-fit: cover;
+}
+
+
 @media(max-width:1199px) { 
 
     .product-details-p {
@@ -43,7 +50,10 @@
     .prod-bottom h3 {
         font-size: 23px;
     }
-    
+    .productgrid img {
+        height: 344px;
+    }
+
 }
 
 
@@ -51,6 +61,9 @@
 
     .product-details-p {
         margin-bottom: 30px;
+    }
+    .productgrid img {
+        height: auto;
     }
 
 }
