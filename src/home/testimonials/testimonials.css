@@ -1,0 +1,97 @@
+
+.Testimonialman {
+    background: url(./images/bgimg.png);
+    margin-top: 107px;
+    background-position: bottom center;
+    background-size: cover;
+}
+
+.Testimonialman .carousel.slide {
+    background: rgba(228, 228, 228, 1);
+    max-width: 680px;
+    padding: 69px;
+    border-radius: 11px;
+    margin-left: auto;
+    margin-top: 159px;
+}
+
+.Testimonialman .carousel img.d-block {
+    margin-bottom: 34px;
+}
+
+.Testimonialman .carousel h3 {
+    margin-bottom: 21px;
+}
+
+.Testimonialman .carousel p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: rgba(0, 0, 0, 1);
+}
+
+.Testimonialman-row2 h3 {
+    font-weight: 600;
+    font-size: 114px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 55px;
+    padding-bottom: 35px;
+}
+
+.Testimonialman .container {
+    max-width: 1495px;
+}
+
+.Testimonialman .carousel .checked {
+    color: #F69F1D;
+    margin: 3px;
+    font-size: 23px;
+}
+
+@media(max-width: 1200px){
+    .Testimonialman-row2 h3 {
+        font-size: 60px;
+    }
+    .Testimonialman .carousel.slide {
+        max-width: 631px;
+        padding: 50px;
+        margin-top: 103px;
+    }
+
+
+
+}
+
+@media(max-width: 992px){
+    .Testimonialman .carousel.slide {
+        padding: 35px;
+    }
+    .Testimonialman .carousel.slide {
+        margin: 0 auto;
+        margin-top: 83px;
+    }
+    .Testimonialman-row2 h3 {
+        font-size: 37px;
+        text-align: center;
+    }
+    .headtopright {
+        flex: 0 0 73%;
+    }
+}
+
+@media(max-width: 767px){
+
+    .Testimonialman .carousel img.d-block {
+        margin-bottom: 22px;
+        max-width: 48px;
+    }
+    .Testimonialman .carousel p {
+        font-size: 15px;
+    }
+    .Testimonialman .carousel.slide {
+        margin-top: 83px;
+    }
+
+
+}
+

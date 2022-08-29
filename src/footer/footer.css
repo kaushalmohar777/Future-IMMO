@@ -1,0 +1,152 @@
+footer.footer-man {
+    background: #171717;
+    padding: 76px 0 0;
+    color: #fff;
+}
+footer.footer-man h3 {
+    font-weight: 200;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.footer-man ul {
+    padding: 0;
+}
+
+.footer-man ul li {
+    list-style: none;
+}
+.footer-man .container {
+    max-width: 1510px;
+}
+
+.footmenu li a,.footer-man p,.footinfo ul li a,.footinfo ul li {
+    color: #D1D1D1;
+}
+
+.footmenu li {
+    margin-bottom: 11px;
+    font-size: 16px;
+}
+
+.footinfo ul li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    max-width: 291px;
+}
+
+.footinfo i {
+    width: 20px;
+    top: 4px;
+    position: absolute;
+    left: 0;
+    text-align: center;
+}
+
+.newsform input#formBasicEmail {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #3e3e3e;
+    border-radius: 0;
+    padding: 10px 1px;
+    margin-bottom: 38px;
+    color: #fff;
+    box-shadow: none;
+}
+
+.newsform button.btn.btn-primary {
+    border-radius: 0;
+    background: #FF4141;
+    border-color: #FF4141;
+    padding: 8px 22px;
+    margin-bottom: 62px;
+}
+
+.footcopyright ul {
+    margin: 0;
+    text-align: right;
+}
+
+.footcopyright ul li {
+    display: inline;
+    margin: 0 13px;
+}
+
+.footcopyright {
+    border-top: 1px solid #363636;
+    margin-top: 40px;
+    padding-top: 23px;
+    color: #D1D1D1;
+    padding-bottom: 18px;
+}
+
+.footcopyright .row {
+    max-width: 1511px;
+    margin: 0px auto;
+}
+
+img.footlogo {
+    margin-top: 10px;
+    margin-bottom: 62px;
+    max-width: 400px;
+}
+.footer-man a:hover {
+    color: #fff;
+}
+
+@media(max-width:1199px) { 
+
+    .footer-man .container {
+        max-width: 93%;
+    }
+    .footerrow2.row {
+        flex-wrap: nowrap;
+    }
+    .footinfo.col {
+        flex: 0 0 50% !important;
+    }
+    img.footlogo {
+        max-width: 188px;
+    }
+    .footerrow2 .col-xl-5 {
+        max-width: 50%;
+    }
+
+    .footerrow1 .col-xl-5 {
+        margin-top: 36px;
+    }
+
+}
+
+@media(max-width: 767px) { 
+
+    .footerrow2.row {
+        flex-wrap: wrap;
+    }
+    .footinfo.col {
+        flex: 0 0 100% !important;
+        margin-bottom: 21px;
+    }
+    footer.footer-man h3 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .footcopyright .row {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footcopyright ul {
+        text-align: center;
+    }
+    .Testimonialman {
+        margin-top: 45px;
+    }
+    img.footlogo {
+        max-width: 120px;
+    }
+
+
+
+}
+

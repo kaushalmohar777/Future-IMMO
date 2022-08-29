@@ -1,0 +1,40 @@
+
+.sliderman .carousel-caption {
+    bottom: 13vw;
+}
+
+.sliderman .carousel-caption h3 {
+    text-transform: uppercase;
+    font-size: 125px;
+    font-family: 'Barlow', sans-serif;
+    line-height: 1;
+    font-weight: 600;
+}
+
+@media(max-width: 1200px){
+
+    .sliderman .carousel-caption h3 {
+        font-size: 66px;
+    }
+   
+
+}
+
+@media(max-width: 992px){
+    .sliderman .carousel-caption h3 {
+        font-size: 43px;
+    }
+
+    .prod-bottom h3 {
+        font-size: 40px;
+    }
+
+}
+
+@media(max-width: 767px){
+
+    .sliderman .carousel-caption h3 {
+        font-size: 24px;
+    }
+
+}

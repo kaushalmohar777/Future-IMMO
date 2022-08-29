@@ -1,0 +1,37 @@
+.homesection2 {
+    background: #F4F4F4;
+    padding: 75px 0;
+    text-align: center;
+}
+.homesection2 h3 {
+    font-size: 38px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+.homesection2 .row {
+    max-width: 655px;
+    margin: 0 auto;
+}
+
+.homesection2 p {
+    color: #585858;
+    font-size: 18px;
+    margin-bottom: 6px;
+    letter-spacing: 0.5px;
+}
+
+@media(max-width: 767px){
+    .homesection2 {
+        padding: 44px 0;
+        text-align: center;
+    }
+    .homesection2 h3 {
+        font-size: 30px;
+    }
+    .homesection2 p {
+        font-size: 16px;
+    }
+
+
+}

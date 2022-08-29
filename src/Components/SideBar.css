@@ -1,0 +1,51 @@
+.offcanvas-header {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 14px;
+}
+.cartitem h4 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.cartitem {
+    padding-bottom: 25px;
+}
+.cartbottom {
+    position: absolute;
+    bottom: 13px;
+    width: 99%;
+    border-top: 1px solid #ccc;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 10px 20px 6px;
+    background: #fff;
+}
+
+.cartbottom button.btn.btn-primary {
+    width: 100%;
+    background: #000;
+    border-color: #000;
+    text-transform: capitalize;
+    font-size: 19px;
+    border-radius: 0;
+    padding: 10px 0;
+    margin-top: 17px;
+}
+.cartamount {
+    padding: 5px 0px;
+}
+
+.removeitme {
+    font-size: 14px;
+    padding: 6px 12px;
+    border-radius: 0;
+    background: #000;
+    border-color: #000;
+    margin-top: 22px;
+}
+
+.container .cartitem + .cartitem {
+    border-top: 1px solid #ccc;
+    padding-top: 26px;
+}
