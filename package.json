@@ -1,7 +1,7 @@
 {
-  "name": "basecamp-ijmuiden",
+  "name": "future-immo",
   "version": "0.1.0",
-  "homepage": "https://futureimmo.ewebworld.in",
+  "homepage": "https://future-immo.netlify.app/",
   "private": true,
   "dependencies": {
     "@fancyapps/ui": "^4.0.31",
