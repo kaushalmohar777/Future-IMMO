@@ -26,20 +26,18 @@ export class ContactInfo extends Component {
                     <Container className='contcactinfo'>
                         <Row>
                             <Col xl={8} className='infosec-left' data-aos={"fade-right"}>
-                                <img src={contimg} />
+                                <img src={contimg} alt="" />
                             </Col>
                             <Col xl={4} className='infosec' data-aos={"fade-left"}>
                                 <div>
-                                    <h3>Solicitar um retorno<br /> de chamada</h3>
+                                    <h3>Request a callback</h3>
                                     <img src={boder} />
-                                    <p>Entre em contato através do formulário ou pelo Whatsapp</p>
+                                    <p>Get in touch using the form or whatsapp</p>
 
                                     <ul>
                                         <li><img src={contimg3} /> <a href='tel:+31 020 244 2324'>Reception: +31 020 244 2324</a> </li>
-                                        <li><img src={contimg1} /> <a href='mailto:info@basecamp-ijmuiden.nl'>info@basecamp-ijmuiden.nl</a> </li>
-                                        <li><img src={contimg2} /> basecamp ijmuiden kennemermeer 27
-                                            1976 gk ijmuiden
-                                            the netherlands</li>
+                                        <li><img src={contimg1} /> <a href='mailto:info@futureimmo.com'>info@futureimmo.com</a> </li>
+                                        <li><img src={contimg2} /> Future Immo</li>
 
                                     </ul>
                                 </div>

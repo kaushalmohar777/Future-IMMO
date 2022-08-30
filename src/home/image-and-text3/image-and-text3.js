@@ -1,5 +1,5 @@
 import { Component } from 'react'
-import image1 from './images/TINY-BAR.png';
+import image1 from './images/TINY-BAR.jpg';
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
@@ -18,14 +18,14 @@ export class ImageAndText3 extends Component {
       <Container className='left-image-section last-sec'>
         <Row>
           <Col xl={6} data-aos={"fade-right"}>
-            <img src={image1} />
+            <img src={image1} alt="" />
           </Col>
           <Col xl={6} data-aos={"fade-left"}>
             <div className='textwrp'>
               <div>
                 <h3>TINY BAR</h3>
-                <p>Kom langs voor een kopje koffie of thee met wat lekkers! Toch meer zin in een verfrissend drankje of een kleine
-                  versnapering? Kies uit de selectie van zorgvuldig geselecteerde lokale bieren of biologische wijnen en voeg een borrelplankje toe. Bij de Tiny Bar kan je heerlijk ontspannen op een van de sundecks of om het kampvuur.</p>
+                <p>Come by for a cup of coffee or tea with something delicious! Still more in the mood for a refreshing drink or a small one
+                   snack? Choose from a selection of carefully selected local beers or organic wines and add a snack platter. At the Tiny Bar you can relax on one of the sundecks or around the campfire.</p>
               </div>
             </div>
           </Col>

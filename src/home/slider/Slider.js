@@ -22,7 +22,7 @@ function Slider() {
           alt="First slide"
         />
         <Carousel.Caption data-aos={"fade-up"} data-aos-delay="500">
-          <h3>Welcome to Basecamp IJmuiden</h3>
+          <h3>Welcome to<br/> Future Immo</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -32,7 +32,7 @@ function Slider() {
           alt="Second slide"
         />
         <Carousel.Caption data-aos={"fade-up"}>
-          <h3>Welcome to Basecamp IJmuiden</h3>
+          <h3>Welcome to<br/> Future Immo</h3>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

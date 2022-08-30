@@ -1,5 +1,5 @@
 import { Component } from 'react'
-import image1 from './images/DUURZAAMHEID.png';
+import image1 from './images/DURABILITY.jpg';
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
@@ -19,17 +19,17 @@ export class ImageAndText extends Component {
       <Container className='left-image-section'>
         <Row>
           <Col xl={6} data-aos={"fade-right"}>
-            <img src={image1} />
+            <img src={image1} alt="" />
           </Col>
           <Col xl={6} data-aos={"fade-left"}>
             <div className='textwrp'>
               <div>
-                <h3>DUURZAAMHEID</h3>
-                <p>Voor veel gasten van Basecamp is duurzaamheid een belangrijke voorwaarde voor een prettig verblijf. Comfort en gemak blijven vanzelfsprekend
-                  de belangrijkste peilers, maar voor velen is het net even iets fijner overnachten als je weet dat er gedacht wordt aan het milieu.</p>
-                <p>Met het Kennemermeer natuurgebied op een steenworp afstand van Basecamp is ook direct duidelijk waarom we streven naar een positieve impact op het klimaat, de
-                  verbetering van de biodiversiteit en ecologisch herstel van de directe omgeving. Duurzaamheid is daarmee onlosmakelijk
-                  verbonden aan Basecamp en is als kernwaarde zowel zichtbaar als onzichtbaar verweven in ieder huisje en het hele terrein.</p>
+                <h3>DURABILITY</h3>
+                <p>For many Basecamp guests, sustainability is an important condition for a pleasant stay. Comfort and convenience remain self-evident
+                   the most important pillars, but for many it is just that little bit nicer to spend the night if you know that the environment is being considered.</p>
+                <p>With the Kennemermeer nature reserve a stone's throw from Basecamp, it is immediately clear why we strive for a positive impact on the climate, the
+                   improving biodiversity and ecological restoration of the immediate environment. Sustainability is therefore inextricable
+                   connected to Basecamp and as a core value is both visibly and invisibly woven into every house and the entire site.</p>
 
               </div>
             </div>

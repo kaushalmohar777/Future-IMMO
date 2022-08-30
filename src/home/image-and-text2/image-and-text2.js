@@ -1,5 +1,5 @@
 import { Component } from 'react'
-import image1 from './images/TINY-OFFICES.png';
+import image1 from './images/TINY-OFFICES.jpg';
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
@@ -22,15 +22,15 @@ export class ImageAndText2 extends Component {
             <div className='textwrp'>
               <div>
                 <h3>TINY OFFICES</h3>
-                <p>Klaar met thuiswerken? Behoefte aan een andere omgeving? Dan hebben wij precies wat jij nodig hebt! Kom werken in een van onze Tiny Offices. De overvloed aan
-                  daglicht, biologische koffie, thee en lekkernijen zorgen ervoor dat je de hele dag gefocust te werk kan gaan. Stap uit de bubbel en ga naar buiten om aan jouw
-                  dagelijkse beslommeringen te
-                  ontsnappen en maak een wandeling langs het strand of het Kennemermeer. We garanderen dat je verfrist en klaar voor dat grote project terugkeert naar huis.</p>
+                <p>Ready to work from home? Need a different environment? Then we have exactly what you need! Come and work in one of our Tiny Offices. The abundance of
+                   daylight, organic coffee, tea and delicacies ensure that you can work focused all day long. Get out of the bubble and go outside to meet your
+                   daily worries too
+                   escape and take a walk along the beach or the Kennemermeer. We guarantee you will return home refreshed and ready for that big project.</p>
               </div>
             </div>
           </Col>
           <Col xl={6} data-aos={"fade-left"}>
-            <img src={image1} />
+            <img src={image1} alt="" />
           </Col>
         </Row>
       </Container>

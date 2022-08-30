@@ -22,16 +22,16 @@ export class Homesection2 extends Component {
           <Container >
             <Row>
               <Col data-aos={"fade-up"}>
-                <h3>VAKANTIEPARK ‘NIEUWE STIJL’</h3>
+                <h3>HOLIDAY PARK "NEW STYLE"</h3>
                 <p>
-                  Kom verblijven aan zee bij Basecamp IJmuiden. Overnacht in één
-                  van de 32 Tiny Houses, boek een meeting room of raak
-                  geïnspireerd. </p>
+                Come and stay by the sea at Future Immo. Stay overnight in one
+                   of the 32 Tiny Houses, book a meeting room or touch
+                   inspired.</p>
 
-                <p>Minimaal verblijf van twee nachten.</p>
+                <p>Minimum stay of two nights.</p>
 
                 <p>
-                  Meer weten? Lees dan hier alles over het Basecamp concept.
+                 Knowing more? Read all about the Basecamp concept here.
                 </p>
               </Col>
             </Row>

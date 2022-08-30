@@ -53,11 +53,8 @@ export class Footer extends Component {
                       <h3>Contact information</h3>
                         <ul>
                             <li><i className="fa fa-phone" aria-hidden="true"></i><a href='tel:+31 020 244 2324'>Phone: +31 020 244 2324 </a> </li>
-                            <li><i className="fa fa-envelope" aria-hidden="true"></i> <a href='mailto:info@basecamp-ijmuiden.nl'>Email: info@basecamp-ijmuiden.nl</a> </li>
-                            <li><i className="fa fa-map-marker" aria-hidden="true"></i>basecamp ijmuiden
-                                kennemermeer 27
-                                1976 gk ijmuiden
-                                the netherlands</li>
+                            <li><i className="fa fa-envelope" aria-hidden="true"></i> <a href='mailto:info@futureimmo.com'>Email: info@futureimmo.com</a> </li>
+                            <li><i className="fa fa-map-marker" aria-hidden="true"></i>Future Immo</li>
                         </ul>
                     </Col>
                     <Col xl={5}>
@@ -77,7 +74,7 @@ export class Footer extends Component {
             <Container fluid className='footcopyright'>
                    <Row>
                       <Col>
-                      <p>©2022 Basecamp.All rights reserved.</p>
+                      <p>©2022 Future Immo.All rights reserved.</p>
                       </Col>
                       <Col>
                         <ul>
