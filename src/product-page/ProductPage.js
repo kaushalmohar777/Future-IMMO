@@ -17,6 +17,9 @@ import "swiper/css/pagination";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+import Loading from "../Components/Loading";
+
+
 const ProductPage = () => {
   let { handle } = useParams();
   const { fetchProductWithId, addItemToCheckout, product } =
@@ -48,7 +51,7 @@ const ProductPage = () => {
     });
   }, []);
 
-  if (!product.title) return <div>Loding...</div>;
+  if (!product.title) return <Loading/> ;
 
   const descriptionary = product.descriptionHtml.split("<!-- split -->");
   //console.log(descriptionary);
