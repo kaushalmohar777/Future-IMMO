@@ -5,3 +5,11 @@
     margin-top: 57px;
     margin-bottom: 27px;
 }
+.instafedddiv ._wPDyp {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(100%/5);
+    margin: 0;
+    display: block;
+    position: relative;
+}
