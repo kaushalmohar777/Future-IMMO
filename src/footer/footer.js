@@ -9,6 +9,7 @@ import Form from 'react-bootstrap/Form';
 import './footer.css';
 import footerlogo from './images/footer.png';
 import payment from './images/payment.png';
+import { Link } from 'react-router-dom';
 
 export class Footer extends Component {
   render() {
@@ -18,18 +19,18 @@ export class Footer extends Component {
             <Container>
                 <Row className='footerrow1'>
                     <Col>
-                        <h3>Basecamp</h3>
+                        <h3>Future Immo</h3>
                         <ul className='footmenu'>
-                            <li><a href='#'>Tiny Loft</a> </li>
-                            <li><a href='#'>Beach House</a> </li>
-                            <li><a href='#'>Mill house</a> </li>
+                            <li><Link to='/product/tiny-loft'>Tiny Loft</Link> </li>
+                            <li><Link to='/product/maya-bay-beach-house'>Spaceship Tiny Home</Link> </li>
+                            <li><Link to='/product/millhome-duo-1'>Millhome duo 1</Link> </li>
                         </ul>
                     </Col>
                     <Col>
                       <h3>Social Media</h3>
                        <ul className='footmenu'>
                             <li><a href='#'>Facebook</a> </li>
-                            <li><a href='#'>Instagram</a> </li>
+                            <li><a href='https://www.instagram.com/futureimmo/' target='_blank'>Instagram</a> </li>
                         </ul>
                     </Col>
                     <Col xl={5}>
