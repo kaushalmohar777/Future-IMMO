@@ -20,12 +20,9 @@ export class InstaFeed extends Component {
       <div data-aos={"fade-up"} className='instafedddiv'> 
       <a href='https://www.instagram.com/futureimmo/' target='_blank'> 
           <h3>Follow on @futureimmo</h3>
+          <img src={insta} alt='instafed' />
       </a>
-      <InstagramFeed
-        token="IGQVJXZAWdqMjZAOeks4U2NfcFBIUDJRNlBmZAFJnNWV5OHM3WmlGMjlNX3RaSmZAjRGl6dV9wVWdCWTBJV1FDQ3dHREtQS1UyVEJHa1VVbEJSclJLUXRwUE5nNmRTMDRMVTRMNm9JYzhIcHJidVhsVGExVwZDZD"
-        counter="5"
-      />
-       </div>
+      </div>
     )
   }
 }
