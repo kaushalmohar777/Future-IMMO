@@ -3,8 +3,6 @@ import insta from './images/insta.png';
 import AOS from 'aos';
 import "aos/dist/aos.css";
 import './instafeed.css';
-import InstagramFeed from "react-ig-feed";
-import "react-ig-feed/dist/index.css";
 
 
 
