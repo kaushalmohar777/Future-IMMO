@@ -18,7 +18,7 @@ export class InstaFeed extends Component {
       <div data-aos={"fade-up"} className='instafedddiv'> 
       <a href='https://www.instagram.com/futureimmo/' target='_blank'> 
           <h3>Follow on @futureimmo</h3>
-          <img src={insta} alt='instafed' />
+          
       </a>
       </div>
     )
