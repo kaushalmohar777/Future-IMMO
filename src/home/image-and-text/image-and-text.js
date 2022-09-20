@@ -24,12 +24,10 @@ export class ImageAndText extends Component {
           <Col xl={6} data-aos={"fade-left"}>
             <div className='textwrp'>
               <div>
-                <h3>DURABILITY</h3>
-                <p>For many Basecamp guests, sustainability is an important condition for a pleasant stay. Comfort and convenience remain self-evident
+                <h3>SUSTAINABILITY</h3>
+                <p>For many Future Immo guests, sustainability is an important condition for a pleasant stay. Comfort and convenience remain self-evident
                    the most important pillars, but for many it is just that little bit nicer to spend the night if you know that the environment is being considered.</p>
-                <p>With the Kennemermeer nature reserve a stone's throw from Basecamp, it is immediately clear why we strive for a positive impact on the climate, the
-                   improving biodiversity and ecological restoration of the immediate environment. Sustainability is therefore inextricable
-                   connected to Basecamp and as a core value is both visibly and invisibly woven into every house and the entire site.</p>
+              
 
               </div>
             </div>

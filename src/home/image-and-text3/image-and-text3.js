@@ -23,7 +23,7 @@ export class ImageAndText3 extends Component {
           <Col xl={6} data-aos={"fade-left"}>
             <div className='textwrp'>
               <div>
-                <h3>TINY BAR</h3>
+                <h3>A-FRAME CABIN</h3>
                 <p>Come by for a cup of coffee or tea with something delicious! Still more in the mood for a refreshing drink or a small one
                    snack? Choose from a selection of carefully selected local beers or organic wines and add a snack platter. At the Tiny Bar you can relax on one of the sundecks or around the campfire.</p>
               </div>

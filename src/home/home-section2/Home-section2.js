@@ -22,11 +22,10 @@ export class Homesection2 extends Component {
           <Container >
             <Row>
               <Col data-aos={"fade-up"}>
-                <h3>HOLIDAY PARK "NEW STYLE"</h3>
+                <h3>WELCOME TO THE FUTURE OF LIVING</h3>
                 <p>
                 Come and stay by the sea at Future Immo. Stay overnight in one
-                   of the 32 Tiny Houses, book a meeting room or touch
-                   inspired.</p>
+                   of the Tiny Lofts, Spaceship Tiny Homes or A-Frame Cabins!</p>
 
                 <p>Minimum stay of two nights.</p>
 

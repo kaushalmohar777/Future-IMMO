@@ -22,8 +22,8 @@ export class Footer extends Component {
                         <h3>Future Immo</h3>
                         <ul className='footmenu'>
                             <li><Link to='/product/tiny-loft'>Tiny Loft</Link> </li>
-                            <li><Link to='/product/maya-bay-beach-house'>Spaceship Tiny Home</Link> </li>
-                            <li><Link to='/product/millhome-duo-1'>Millhome duo 1</Link> </li>
+                            <li><Link to='/product/spaceship'>Spaceship Tiny Home</Link> </li>
+                            <li><Link to='/product/a-frame'>A-Frame Cabin</Link> </li>
                         </ul>
                     </Col>
                     <Col>
@@ -53,7 +53,7 @@ export class Footer extends Component {
                     <Col className='footinfo'>
                       <h3>Contact information</h3>
                         <ul>
-                            <li><i className="fa fa-phone" aria-hidden="true"></i><a href='tel:+31 020 244 2324'>Phone: +31 020 244 2324 </a> </li>
+                            <li><i className="fa fa-phone" aria-hidden="true"></i><a href='tel:+1 420 6969 6969'>Phone: +1 420 6969 6969 </a> </li>
                             <li><i className="fa fa-envelope" aria-hidden="true"></i> <a href='mailto:info@futureimmo.com'>Email: info@futureimmo.com</a> </li>
                             <li><i className="fa fa-map-marker" aria-hidden="true"></i>Future Immo</li>
                         </ul>

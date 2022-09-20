@@ -21,7 +21,7 @@ export class ImageAndText2 extends Component {
           <Col xl={6} data-aos={"fade-right"}>
             <div className='textwrp'>
               <div>
-                <h3>TINY OFFICES</h3>
+                <h3>SPACESHIP TINY HOME</h3>
                 <p>Ready to work from home? Need a different environment? Then we have exactly what you need! Come and work in one of our Tiny Offices. The abundance of
                    daylight, organic coffee, tea and delicacies ensure that you can work focused all day long. Get out of the bubble and go outside to meet your
                    daily worries too
